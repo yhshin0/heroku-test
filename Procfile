@@ -1,2 +1,2 @@
 touch hello
-npm start:prod
+npm run start:prod
