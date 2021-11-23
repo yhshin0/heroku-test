@@ -56,4 +56,5 @@ jobs:
         
       - name: eslint
         run: |
+          npm ci
           npm run lint
