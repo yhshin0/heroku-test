@@ -14,4 +14,4 @@ jobs:
       - uses: actions/checkout@v2
       - name: eslint
         run: |
-          npm run lint
+          ./node_modules/.bin/eslint . --ignore-path ../.gitignore --max-warnings 0
