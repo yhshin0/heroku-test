@@ -57,4 +57,4 @@ jobs:
       - name: eslint
         run: |
           npm i
-          npm run lint
+          npm run lint:github-action
